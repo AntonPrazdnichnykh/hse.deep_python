@@ -70,5 +70,4 @@ def visualize_ast(input_fn: str, output_fn: Optional[str] = None, figsize: Optio
 
 
 if __name__ == "__main__":
-    # visualize_ast("test.py", "artifacts/test_ast.png")
     visualize_ast("fibonacci.py", "artifacts/fibonacci_ast.png", figsize=(15, 15))
